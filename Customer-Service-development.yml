@@ -6,4 +6,4 @@ spring:
       enabled: true
   data:
     rest:
-      base-path: /CustomerApi
+      base-path: /api
