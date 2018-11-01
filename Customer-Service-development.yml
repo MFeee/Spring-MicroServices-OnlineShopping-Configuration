@@ -4,6 +4,11 @@ spring:
   h2:
     console:
       enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5050
  # data:
  #   rest:
  #     base-path: /api
