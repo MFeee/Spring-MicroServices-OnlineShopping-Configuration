@@ -5,7 +5,10 @@ spring:
     console:
       enabled: true
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
  # data:
  #   rest:
  #     base-path: /api
