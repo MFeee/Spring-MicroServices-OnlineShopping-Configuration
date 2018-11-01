@@ -8,7 +8,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:5050
+      defaultZone: http://localhost:5050/eureka/
  # data:
  #   rest:
  #     base-path: /api
