@@ -4,6 +4,6 @@ spring:
   h2:
     console:
       enabled: true
-  data:
-    rest:
-      base-path: /api
+ # data:
+ #   rest:
+ #     base-path: /api
