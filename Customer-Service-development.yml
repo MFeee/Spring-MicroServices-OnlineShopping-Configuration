@@ -1,5 +1,7 @@
 server:
   port: 5051
+db:
+  name: customerdb
 spring:
   h2:
     console:
