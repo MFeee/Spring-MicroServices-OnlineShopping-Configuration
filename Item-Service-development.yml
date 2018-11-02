@@ -1,8 +1,6 @@
 server:
   port: 5052
 spring:
-  profiles:
-    active: development
   application:
     name: item-Service
   h2:
