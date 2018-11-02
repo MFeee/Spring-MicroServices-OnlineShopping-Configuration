@@ -6,8 +6,6 @@ spring:
   h2:
     console:
       enabled: true
-hibernate:
-  defaultSchema: customer
 eureka:
   client:
     serviceUrl:
