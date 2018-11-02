@@ -6,8 +6,10 @@ spring:
   h2:
     console:
       enabled: true
-  datasource:
-    schema: item
+  jpa:
+    properties:
+       hibernate:
+          default_schema: customer
 eureka:
   client:
     serviceUrl:
