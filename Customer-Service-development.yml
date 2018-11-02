@@ -7,7 +7,7 @@ spring:
     console:
       enabled: true
 hibernate:
-  default_schema: customer
+  defaultSchema: customer
 eureka:
   client:
     serviceUrl:
