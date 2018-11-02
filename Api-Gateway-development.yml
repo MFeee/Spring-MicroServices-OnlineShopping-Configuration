@@ -7,11 +7,11 @@ eureka:
 zuul:
   prefix: 
   routes:
-    customers:
+    customersApi:
       serviceId: CUSTOMER-SERVICE
-    items:
+    itemsAPi:
       serviceId: ITEM-SERVICE
-    sales:
+    salesApi:
       serviceId: SALESORDER-SERVICE
 # Increase the Hystrix timeout to 60s (for all)
 hystrix:
