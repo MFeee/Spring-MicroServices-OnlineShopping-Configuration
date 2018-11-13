@@ -11,7 +11,7 @@ zuul:
   routes:
     customersApi:
       serviceId: CUSTOMER-SERVICE
-    itemsAPi:
+    itemsApi:
       serviceId: ITEM-SERVICE
     salesApi:
       serviceId: SALESORDER-SERVICE
