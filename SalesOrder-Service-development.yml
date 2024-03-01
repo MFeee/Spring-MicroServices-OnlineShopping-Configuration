@@ -6,10 +6,6 @@ spring:
   h2:
     console:
       enabled: true
-  kafka:
-    bootstrap-servers: localhost:9092
-    consumer:
-      group-id: myGroup
   mail:
     host: localhost
     port: 25
